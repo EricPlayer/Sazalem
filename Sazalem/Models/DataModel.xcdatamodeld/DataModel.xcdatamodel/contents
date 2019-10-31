@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Downloaded" representedClassName="Downloaded" syncable="YES" codeGenerationType="class">
+        <attribute name="id_song" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Favours" representedClassName="Favours" syncable="YES" codeGenerationType="class">
+        <attribute name="id_song" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Playlist_detail" representedClassName="Playlist_detail" syncable="YES" codeGenerationType="class">
+        <attribute name="id_playlist" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_song" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Playlists" representedClassName="Playlists" syncable="YES" codeGenerationType="class">
+        <attribute name="cover" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Songs" representedClassName="Songs" syncable="YES" codeGenerationType="class">
+        <attribute name="audio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cover" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id_singer" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="singer_name" optional="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Songs" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Downloaded" positionX="-54" positionY="36" width="128" height="60"/>
+        <element name="Playlists" positionX="-36" positionY="45" width="128" height="90"/>
+        <element name="Playlist_detail" positionX="-18" positionY="63" width="128" height="75"/>
+        <element name="Favours" positionX="0" positionY="72" width="128" height="60"/>
+    </elements>
+</model>
